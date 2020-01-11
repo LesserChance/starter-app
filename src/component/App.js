@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './app.css';
 
 function App() {
   return (
     <div className="App">
-      <div class="jumbotron text-center">
+      <div className="jumbotron text-center">
         <img src="./assets/logo.png" alt="My App" width="150" />
         <h2>My App</h2>
       </div>
