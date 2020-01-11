@@ -11,7 +11,7 @@ A basic app I can use to bootstrap future builds. Contains: React, Redux, Sass, 
     git remote add origin git@github.com:LesserChance/<new-repo-name>.git
     git push -u origin master
 
-```yarn install``` - Instal initial dependencies
+```yarn install``` - Install initial dependencies
 
 ## Development
 ```yarn start``` - Start the web app only  
