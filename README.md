@@ -2,9 +2,16 @@
 A basic app I can use to bootstrap future builds. Contains: React, Redux, Sass, Electron, Bootstrap, icons
 
 ## Initializing a new repository
-```git init repo-name```  
-```cd repo-name```  
-```git pull https://github.com/LesserChance/starter-app.git```  
+    git init new-repo-name
+    cd new-repo-name
+    git pull https://github.com/LesserChance/starter-app.git
+    echo "# new-repo-name" > README.md
+    git add README.md
+    git commit -m "initial commit"
+    git remote add origin git@github.com:LesserChance/<new-repo-name>.git
+    git push -u origin master
+
+```yarn install``` - Instal initial dependencies
 
 ## Development
 ```yarn start``` - Start the web app only  
@@ -15,5 +22,4 @@ A basic app I can use to bootstrap future builds. Contains: React, Redux, Sass, 
 ```yarn run electron-pack``` - Build the electron app  
 
 ## Resources
-[create icons](https://favicon.io/favicon-generator/)
-
+[Create Icons](https://favicon.io/favicon-generator/)
