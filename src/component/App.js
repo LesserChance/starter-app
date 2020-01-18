@@ -1,22 +1,25 @@
 import React from 'react';
-import './app.css';
+import { connect } from 'react-redux'
 
-class App extends React.Component {
+import '../css/app.css';
 
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <div className="jumbotron text-center">
-          <img src="./assets/logo.png" alt="My App" width="150" />
-          <h2>My App</h2>
-        </div>
+const AppComponent = (props) => {
+  return (
+    <div className="App">
+      <div className="jumbotron text-center">
+        <img src="./assets/logo.png" alt="My App" width="150" />
+        <h2>My App</h2>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default App;
+const mapStateToProps = (state, ownProps) => {
+  return {}
+}
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {}
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(AppComponent)
